@@ -1,0 +1,93 @@
+===== Scikit-learn MLP 实验开始 =====
+正在加载预处理数据...
+数据加载完成。训练集大小: 60000, 测试集大小: 10000
+正在初始化 MLPClassifier...
+开始训练模型...
+Iteration 1, loss = 1.11087968
+Validation score: 0.790333
+Iteration 2, loss = 0.55223776
+Validation score: 0.858333
+Iteration 3, loss = 0.39442378
+Validation score: 0.889167
+Iteration 4, loss = 0.31405675
+Validation score: 0.903500
+Iteration 5, loss = 0.26450832
+Validation score: 0.909333
+Iteration 6, loss = 0.22935641
+Validation score: 0.923500
+Iteration 7, loss = 0.20320727
+Validation score: 0.927833
+Iteration 8, loss = 0.18129785
+Validation score: 0.932500
+Iteration 9, loss = 0.16318361
+Validation score: 0.934000
+Iteration 10, loss = 0.14839438
+Validation score: 0.936000
+Iteration 11, loss = 0.13455369
+Validation score: 0.939500
+Iteration 12, loss = 0.12243084
+Validation score: 0.939500
+Iteration 13, loss = 0.11263702
+Validation score: 0.943000
+Iteration 14, loss = 0.10348657
+Validation score: 0.944167
+Iteration 15, loss = 0.09489861
+Validation score: 0.946333
+Iteration 16, loss = 0.08652811
+Validation score: 0.944333
+Iteration 17, loss = 0.07929557
+Validation score: 0.942833
+Iteration 18, loss = 0.07302150
+Validation score: 0.944333
+Iteration 19, loss = 0.06671983
+Validation score: 0.945333
+Iteration 20, loss = 0.06104858
+Validation score: 0.946667
+Iteration 21, loss = 0.05566043
+Validation score: 0.947167
+Iteration 22, loss = 0.05060100
+Validation score: 0.946167
+Iteration 23, loss = 0.04674354
+Validation score: 0.945333
+Iteration 24, loss = 0.04232927
+Validation score: 0.944500
+Iteration 25, loss = 0.03847021
+Validation score: 0.944500
+Iteration 26, loss = 0.03484018
+Validation score: 0.945167
+Iteration 27, loss = 0.03158031
+Validation score: 0.943833
+Iteration 28, loss = 0.02830572
+Validation score: 0.945500
+Iteration 29, loss = 0.02563475
+Validation score: 0.943833
+Iteration 30, loss = 0.02312952
+Validation score: 0.943833
+模型训练完成。
+正在评估模型...
+正在保存实验结果...
+
+===== 最终分类报告 =====
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       980
+           1       0.99      0.99      0.99      1135
+           2       0.97      0.97      0.97      1032
+           3       0.97      0.97      0.97      1010
+           4       0.96      0.98      0.97       982
+           5       0.96      0.97      0.97       892
+           6       0.98      0.98      0.98       958
+           7       0.98      0.96      0.97      1028
+           8       0.96      0.97      0.97       974
+           9       0.96      0.94      0.95      1009
+
+    accuracy                           0.97     10000
+   macro avg       0.97      0.97      0.97     10000
+weighted avg       0.97      0.97      0.97     10000
+
+
+分类报告JSON文件已保存: ./sklearn_experiment_results/classification_results.json
+模型已保存: ./sklearn_experiment_results/sklearn_mlp_model.joblib
+训练曲线图已保存: ./sklearn_experiment_results/training_curves.png
+曲线原始数据已保存: ./sklearn_experiment_results/curves_data.json
+混淆矩阵已保存: ./sklearn_experiment_results/confusion_matrix.png

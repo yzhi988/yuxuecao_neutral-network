@@ -1,0 +1,58 @@
+===== Scikit-learn MLP 实验开始 =====
+正在加载预处理数据...
+数据加载完成。训练集大小: 60000, 测试集大小: 10000
+正在初始化 MLPClassifier...
+开始训练模型...
+Iteration 1, loss = 2.57136252
+Validation score: 0.114500
+Iteration 2, loss = 2.55287214
+Validation score: 0.113667
+Iteration 3, loss = 2.53665579
+Validation score: 0.113667
+Iteration 4, loss = 2.49732806
+Validation score: 0.113667
+Iteration 5, loss = 2.49185407
+Validation score: 0.113667
+Iteration 6, loss = 2.47442880
+Validation score: 0.106167
+Iteration 7, loss = 2.46555120
+Validation score: 0.113667
+Iteration 8, loss = 2.43794008
+Validation score: 0.103000
+Iteration 9, loss = 2.48038552
+Validation score: 0.103000
+Iteration 10, loss = 2.44792088
+Validation score: 0.098833
+Iteration 11, loss = 2.41754580
+Validation score: 0.098000
+Iteration 12, loss = 2.38722983
+Validation score: 0.100500
+Validation score did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+模型训练完成。
+正在评估模型...
+正在保存实验结果...
+
+===== 最终分类报告 =====
+              precision    recall  f1-score   support
+
+           0       1.00      0.00      0.00       980
+           1       0.11      1.00      0.20      1135
+           2       0.00      0.00      0.00      1032
+           3       0.00      0.00      0.00      1010
+           4       0.00      0.00      0.00       982
+           5       0.00      0.00      0.00       892
+           6       0.00      0.00      0.00       958
+           7       0.00      0.00      0.00      1028
+           8       0.00      0.00      0.00       974
+           9       0.00      0.00      0.00      1009
+
+    accuracy                           0.11     10000
+   macro avg       0.11      0.10      0.02     10000
+weighted avg       0.11      0.11      0.02     10000
+
+
+分类报告JSON文件已保存: ./sklearn_experiment_results/classification_results.json
+模型已保存: ./sklearn_experiment_results/sklearn_mlp_model.joblib
+训练曲线图已保存: ./sklearn_experiment_results/training_curves.png
+曲线原始数据已保存: ./sklearn_experiment_results/curves_data.json
+混淆矩阵已保存: ./sklearn_experiment_results/confusion_matrix.png

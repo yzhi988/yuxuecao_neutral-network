@@ -1,0 +1,5 @@
+1、运行mnist_loader.py会加载数据集并进行预处理，将预处理后的数据保存到preprocessed_data文件夹，加载到的数据保存到data文件夹
+
+
+2、运行run_sklearm_mlp.py会进行训练与测试，并生成混淆矩阵，损失函数收敛曲线等，保存在sklearn_experiment_results文件夹下
+
